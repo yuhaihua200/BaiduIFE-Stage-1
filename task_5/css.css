@@ -101,6 +101,25 @@ td {
 	text-decoration: none;
 	width: auto;
 }
+@media screen and (max-width: 640px){
+    .header {
+    	height: 120px;
+    	text-align: center;
+    }
+    .header img{
+    	position: relative;
+    	top: 10px;
+    	bottom: auto;
+    }
+    .header ul {
+    	display: inline-block;
+    	position: relative;
+    	margin: 0 auto;
+    }
+    .header li {
+    	font-size: 11px;
+    }
+}
 
 .nav a:hover {
 	color: #A69F99;
