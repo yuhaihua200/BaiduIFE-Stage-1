@@ -78,9 +78,12 @@ td {
 	float: left;
 }
 
-.logos img {
-	width: 200px;
-	height: 60px;
+.logos h1 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 0 20px;
 }
 
 .nav {
@@ -100,25 +103,6 @@ td {
 	font-weight: 600;
 	text-decoration: none;
 	width: auto;
-}
-@media screen and (max-width: 640px){
-    .header {
-    	height: 120px;
-    	text-align: center;
-    }
-    .header img{
-    	position: relative;
-    	top: 10px;
-    	bottom: auto;
-    }
-    .header ul {
-    	display: inline-block;
-    	position: relative;
-    	margin: 0 auto;
-    }
-    .header li {
-    	font-size: 11px;
-    }
 }
 
 .nav a:hover {
@@ -279,4 +263,29 @@ td {
 #footer p {
 	text-align: center;
 	color: #FFF;
+}
+
+
+/*自适应部分*/
+
+@media screen and (max-width: 640px) {
+	.header {
+		height: 120px;
+		text-align: center;
+	}
+	.header ul {
+		display: inline-block;
+		position: relative;
+		margin: 0 auto;
+	}
+	.header li {
+		font-size: 11px;
+	}
+	#left {
+		width: 100%;
+	}
+	#right {
+		float: left;
+		margin-left: 20px;
+	}
 }
