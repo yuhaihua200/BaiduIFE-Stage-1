@@ -1,0 +1,349 @@
+/*基础*/
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background: #44565C;
+}
+
+
+/*字休*/
+
+.ht {
+	font-family: "黑体";
+}
+
+.st {
+	font-family: "宋体";
+}
+
+.kt {
+	font-family: "楷体";
+}
+
+.yh {
+	font-family: "微软雅黑";
+}
+
+.indent {
+	text-indent: 25px;
+}
+
+
+/*浮动*/
+
+.float_L {
+	float: left;
+}
+
+.float_R {
+	float: right;
+}
+
+
+/*主体开始*/
+
+#main {
+	width: 900px;
+	height: 1305px;
+	padding: 0 40px;
+	background: #fff;
+}
+
+
+/*头部*/
+
+#header {
+	width: 100%;
+	height: 61px;
+	border-bottom: solid 2px #7F9094;
+	font-size: 12px;
+}
+
+.logo {
+	width: 110px;
+	height: 61px;
+	background: #DB3E75;
+	color: #FFF;
+}
+
+.logo p {
+	margin: 37px 0 0 5px;
+	line-height: 30px;
+}
+
+#header span {
+	color: #DC4C7D;
+	float: right;
+	margin: 37px 5px 0 0;
+	line-height: 30px;
+}
+
+
+/*content 开始*/
+
+.content {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 25px 0;
+}
+
+.content h2 {
+	font-size: 16px;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.content p {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "宋体";
+	color: #698287;
+	margin-top: 8px;
+}
+
+
+/*content-1*/
+
+#banner {
+	width: 641px;
+	height: 191px;
+	background: #333;
+	float: left;
+}
+
+#msg {
+	height: 191px;
+	width: 203px;
+	border-top: solid 2px #CA69B8;
+}
+
+
+/*content-2*/
+
+.what {
+	color: #419c59;
+	width: 230px;
+	height: 205px;
+	margin-right: 35px;
+}
+
+.when {
+	color: #d2994f;
+	width: 206px;
+	height: 205px;
+	margin-right: 35px;
+}
+
+.how {
+	color: #cc7680;
+	width: 250px;
+	height: 205px;
+}
+
+.how ul {
+	list-style: none;
+	margin-top: 30px;
+}
+
+.how ul li,
+.how p {
+	line-height: 20px;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+
+.how li span {
+	color: #cd4a48;
+	font-style: oblique;
+}
+
+
+/*content-3*/
+
+.left {
+	width: 417px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.l_top {
+	border-bottom: solid 2px #0B3488;
+	width: 100%;
+	height: 153px;
+	text-transform: uppercase;
+}
+
+.l_top h1 span {
+	font-style: italic;
+	color: #EDEF22;
+	font-size: 72px;
+	font-weight: 800;
+	margin-right: 20px;
+}
+
+.l_top h1,
+.l_top h3 {
+	color: #0B3488;
+	font-size: 42px;
+	line-height: 55px;
+}
+
+.l_top h3 {
+	color: #0B3488;
+	font-size: 42px;
+	line-height: 0;
+}
+
+.l_top h4 {
+	font-size: 38px;
+	color: #0A3385;
+	line-height: 85px;
+}
+
+.l_top img {
+	width: 168px;
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+
+#leftP:first-letter {
+	color: #EDEF22;
+	font-family: "微软雅黑";
+	font-weight: 500;
+	font-size: 70px;
+	float: left;
+	margin: 0 10px 10px 0;
+	line-height: 70px;
+}
+
+.right {
+	width: 458px;
+	height: auto;
+}
+
+.r_top {
+	width: 100%;
+	height: 275px;
+	background: #419C59;
+	margin-bottom: 20px;
+}
+
+.r_bottom {
+	background: #EAF1CF;
+	width: 100%;
+	height: auto;
+}
+
+.r_bottom ul {
+	list-style-image: url(li.png);
+	padding: 30px 20px 0 30px;
+}
+
+.r_bottom ul li {
+	font-size: 16px;
+	line-height: 25px;
+	color: #5a5b5b;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.r_bottom ul span {
+	font-style: italic;
+	font-size: 12px;
+	height: 16px;
+	float: right;
+}
+
+.r_bottom_l {
+	background: #DB3E75;
+	width: 260px;
+	height: 160px;
+	color: #FFF;
+}
+
+.r_bottom_l_l {
+    font-size: 110px;
+    border-right: solid #FFF 2px;
+    height: 87px;
+    padding-right: 5px;
+    margin: 35px 10px 0;
+    line-height: 85px;
+}
+
+.r_bottom_r_r {
+	height:135px;
+	width: 160px;
+	padding-top: 35px;
+}
+
+.r_bottom_r_r p {
+	font-style: italic;
+	font-size: 21px;
+	    margin: 0 0 10px 0;
+	color: #FFF;
+	font-family: "黑体";
+	text-transform:uppercase;
+}
+.r_bottom_r_r span{
+	font-size: 12px;
+}
+.r_bootom_r{
+	height: 130px;
+	width: 165px;
+	padding: 15px;
+}
+.r_bootom_r p{
+	font-size: 14px;
+	font-style: italic;
+	color: #5A5B5B;
+	font-family:"黑体";
+}
+.r_bootom_r sub,.r_bootom_r sup {
+	color: #DB3E73;
+	font-size: 72px;
+	font-style: initial;
+	
+}
+/*底部*/
+#footer{
+	width: 892px;
+	border-top: solid 1px #938e8c ;
+	float: left;
+	height: 60px;
+}
+
+#footer span{
+	float: right;
+	color: #DC4C7D;
+	font-size: 12px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
