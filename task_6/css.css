@@ -10,29 +10,6 @@ body {
 }
 
 
-/*字休*/
-
-.ht {
-	font-family: "黑体";
-}
-
-.st {
-	font-family: "宋体";
-}
-
-.kt {
-	font-family: "楷体";
-}
-
-.yh {
-	font-family: "微软雅黑";
-}
-
-.indent {
-	text-indent: 25px;
-}
-
-
 /*浮动*/
 
 .float_L {
@@ -48,7 +25,7 @@ body {
 
 #main {
 	width: 900px;
-	height: 1305px;
+	height: 1380px;
 	padding: 0 40px;
 	background: #fff;
 }
@@ -89,7 +66,7 @@ body {
 	width: 100%;
 	height: auto;
 	float: left;
-	margin: 25px 0;
+	margin: 20px 0;
 }
 
 .content h2 {
@@ -111,15 +88,73 @@ body {
 
 #banner {
 	width: 641px;
-	height: 191px;
+	height: 301px;
 	background: #333;
 	float: left;
 }
 
 #msg {
-	height: 191px;
+	height: auto;
 	width: 203px;
 	border-top: solid 2px #CA69B8;
+	padding-top: 10px;
+}
+
+#msg p {
+	color: #000;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+}
+
+#msg p span {
+	font-size: 18px;
+}
+
+.msg_p {
+	font-size: 12px;
+	color: #676767;
+}
+
+.msg_h {
+	width: 100%;
+	height: auto;
+}
+
+#msg h1 {
+	color: #75b86b;
+	font-size: 116px;
+	font-style: oblique;
+	margin-left: -15px;
+	line-height: 145px;
+}
+
+#msg h2 {
+	font-size: 55px;
+	color: #cc8091;
+	text-decoration: none;
+	font-weight: 400;
+	margin-right: 5px;
+	line-height: 50px;
+	margin-top: 6px;
+}
+
+#msg h3 {
+	font-size: 21px;
+	color: #cc8091;
+	font-weight: 400;
+	margin-top: 18px;
+}
+
+#msg strong {
+	font-size: 12px;
+	color: #666;
+	font-weight: 100;
+	line-height: 10px;
 }
 
 
@@ -171,13 +206,23 @@ body {
 	margin-right: 20px;
 }
 
+.img {
+	width: 168px;
+	float: right;
+	margin: 20px 0 20px 20px;
+}
+.img img{
+	display: block;
+	width: 100%;
+
+
+}
 .l_top {
 	border-bottom: solid 2px #0B3488;
 	width: 100%;
 	height: 153px;
 	text-transform: uppercase;
 }
-
 .l_top h1 span {
 	font-style: italic;
 	color: #EDEF22;
@@ -185,32 +230,22 @@ body {
 	font-weight: 800;
 	margin-right: 20px;
 }
-
 .l_top h1,
 .l_top h3 {
 	color: #0B3488;
 	font-size: 42px;
 	line-height: 55px;
 }
-
 .l_top h3 {
 	color: #0B3488;
 	font-size: 42px;
 	line-height: 0;
 }
-
 .l_top h4 {
 	font-size: 38px;
 	color: #0A3385;
 	line-height: 85px;
 }
-
-.l_top img {
-	width: 168px;
-	float: right;
-	margin: 20px 0 20px 20px;
-}
-
 #leftP:first-letter {
 	color: #EDEF22;
 	font-family: "微软雅黑";
@@ -220,30 +255,25 @@ body {
 	margin: 0 10px 10px 0;
 	line-height: 70px;
 }
-
 .right {
 	width: 458px;
 	height: auto;
 }
-
 .r_top {
 	width: 100%;
 	height: 275px;
 	background: #419C59;
 	margin-bottom: 20px;
 }
-
 .r_bottom {
 	background: #EAF1CF;
 	width: 100%;
 	height: auto;
 }
-
 .r_bottom ul {
 	list-style-image: url(li.png);
 	padding: 30px 20px 0 30px;
 }
-
 .r_bottom ul li {
 	font-size: 16px;
 	line-height: 25px;
@@ -251,99 +281,86 @@ body {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
-
 .r_bottom ul span {
 	font-style: italic;
 	font-size: 12px;
 	height: 16px;
 	float: right;
 }
-
 .r_bottom_l {
 	background: #DB3E75;
 	width: 260px;
 	height: 160px;
 	color: #FFF;
 }
-
 .r_bottom_l_l {
-    font-size: 110px;
-    border-right: solid #FFF 2px;
-    height: 87px;
-    padding-right: 5px;
-    margin: 35px 10px 0;
-    line-height: 85px;
+	font-size: 110px;
+	border-right: solid #FFF 2px;
+	height: 87px;
+	padding-right: 5px;
+	margin: 35px 10px 0;
+	line-height: 85px;
 }
-
 .r_bottom_r_r {
-	height:135px;
+	height: 135px;
 	width: 160px;
 	padding-top: 35px;
 }
-
 .r_bottom_r_r p {
 	font-style: italic;
 	font-size: 21px;
-	    margin: 0 0 10px 0;
+	margin: 0 0 10px 0;
 	color: #FFF;
 	font-family: "黑体";
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
-.r_bottom_r_r span{
+.r_bottom_r_r span {
 	font-size: 12px;
 }
-.r_bootom_r{
+.r_bootom_r {
 	height: 130px;
 	width: 165px;
 	padding: 15px;
 }
-.r_bootom_r p{
+.r_bootom_r p {
 	font-size: 14px;
 	font-style: italic;
 	color: #5A5B5B;
-	font-family:"黑体";
+	font-family: "黑体";
 }
-.r_bootom_r sub,.r_bootom_r sup {
+.r_bootom_r sub,
+.r_bootom_r sup {
 	color: #DB3E73;
 	font-size: 72px;
 	font-style: initial;
-	
 }
+
 /*底部*/
-#footer{
+#footer {
 	width: 892px;
-	border-top: solid 1px #938e8c ;
+	border-top: solid 1px #938e8c;
 	float: left;
 	height: 60px;
 }
-
-#footer span{
+#footer span {
 	float: right;
 	color: #DC4C7D;
 	font-size: 12px;
-	
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*字休*/
+.ht {
+	font-family: "黑体";
+}
+.st {
+	font-family: "宋体";
+}
+.kt {
+	font-family: "楷体";
+}
+.yh {
+	font-family: "微软雅黑";
+}
+.indent {
+	text-indent: 25px;
+}
