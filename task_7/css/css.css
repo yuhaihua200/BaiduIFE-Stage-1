@@ -331,15 +331,15 @@ select:-ms-expand {
 	width: 1280px;
 	height: auto;
 	margin: 0 auto;
+	position: relative;
 }
 
 .guild_l {
-	background: url(../images/pic-5.png) no-repeat;
-	float: left;
-	width: 850px;
-	height: 562px;
-	color: #FFF;
-	position: relative;
+    width: 851px;
+    height: 568px;
+    color: #FFF;
+    position: relative;
+    z-index: 2;
 }
 .guild_l li{
 	width: 100%;
@@ -368,11 +368,15 @@ select:-ms-expand {
 }
 
 .guild_R {
-	width: 288px;
-	height: 562px;
-	float: left;
-	color: #323333;
-	padding: 0 70px;
+    width: 288px;
+    height: 567px;
+    color: #323333;
+    padding: 0 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    background: #FFF;
 }
 
 .guild_R h2 {

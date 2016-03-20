@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<title>task_7</title>
 		<link rel="stylesheet" type="text/css" href="css/css.css" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
 	</head>
 
 	<body>
@@ -131,30 +132,43 @@
 			</div>
 			<div class="mian">
 				<div class="guild">
-					<div class="guild_l">
-						<h2>新世界</h2>
-						<h1>TIME	</h1>
-						<p>@新世界－北京<br /> 2016.04.01
-						</p>
-					</div>
-					<li class="guild_R">
-
-						<h2>新世界/<span>01</span></h2>
-						<p>新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界
-						</p>
-						<a href="">更多详情</a>
-
-						<ul class="k">
-							<li class="hr_1"></li>
-							<li class="hr_2"></li>
-							<li class="hr_3"></li>
+					<div class="ck-slide">
+						<div class="guild_l">
+							<h2>新世界</h2>
+							<h1>TIME	</h1>
+							<p>@新世界－北京<br /> 2016.04.01
+							</p>
+						</div>
+						<ul class="ck-slide-wrapper">
+							<li>
+								<a href="javascript:"><img src="images/3.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<a href="javascript:"><img src="images/2.png" alt=""></a>
+							</li>
+							<li style="display:none">
+								<a href="javascript:"><img src="images/4.png" alt=""></a>
+							</li>
 						</ul>
+						
+							<div class="ck-slidebox">
+								<div class="slideWrap">
+									<ul class="dot-wrap">
+										<li class="current"><em>1</em></li>
+										<li><em>2</em></li>
+										<li><em>3</em></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="guild_R">
+							<h2>新世界/<span>01</span></h2>
+							<p>新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界新世界是个新世界 新世界是个新世界新世界是个新世界
+							</p>
+							<a href="">更多详情</a>
 					</div>
 				</div>
-
 			</div>
-
- 
 			<div class="mian">
 				<div class="service">
 					<div class="service_L">
@@ -261,6 +275,16 @@
 
 			</div>
 		</div>
+		<script src="http://www.17sucai.com/preview/404512/2015-09-20/%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD/js/jquery-1.8.3.min.js"></script>
+		<script src="js/new_file.js"></script>
+		<script>
+			$('.ck-slide').ckSlide({
+				autoPlay: false, //默认为不自动播放，需要时请以此设置
+				dir: 'y', //默认效果淡隐淡出，x为水平移动，y 为垂直滚动
+				interval: 3000 //默认间隔2000毫秒
+					//				autoplay: false,true
+			});
+		</script>
 	</body>
 
 </html>
