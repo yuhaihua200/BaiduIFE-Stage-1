@@ -69,6 +69,7 @@ body {
 	float: left;
 	width: auto;
 	margin: 20px 20px 0;
+	line-height: 14px;
 }
 
 .nav a {
@@ -92,6 +93,7 @@ body {
 	padding: 2px 0 0 20px;
 	margin-top: 18px;
 	margin-left: 50px;
+	line-height: 14px;
 }
 
 .loginbar a {
@@ -225,56 +227,72 @@ body {
 	height: 38px;
 	margin: 0 auto;
 	padding-top: 70px;
+		position: relative;
 }
 
 .seatch_form input {
 	background: #be4e48;
-	padding: 12px 100px;
 	margin-left: -22px;
 	border: none;
 	color: #FFF;
+	width: 230px;
+	height: 37px;
+
 }
 
-.select {
+.select_1,.select_2,.select_3 {
 	float: left;
 	width: 230px;
 	height: 35px;
 	margin-right: 30px;
-	background: #FFF;
+	background: url(../images/task_7.gif) no-repeat center right 10px #FFF;
+	background-position-x: 200px;
 	border: solid 1px #be4e48;
-}
-
-.select select {
-	width: 230px;
-	height: 35px;
-	border: none;
-	background-color: #FFF;
-	background: url(../images/task_7.gif)no-repeat;
-	background-position: 205px 9px;
-	padding-right: 10px;
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	padding-left: 5px;
-	vertical-align: middle;
 	text-align: left;
-	outline: 0;
-	cursor: pointer;
+	color: #BFBFBE;
 }
-
-select:-ms-expand {
+.select_1 span,.select_2 span,.select_3 span{
+	padding-left:8px ;
+	line-height: 36px;
+	
+}
+.select_1 ul,.select_2 ul,.select_3 ul{
 	display: none;
-}
-
-.search_ul {
-	width: 100px;
-	height: 20px;
+	height: auto;
+	width: 230px;
 	border: solid 1px #be4e48;
+	background: #EDEDED;
+	position: absolute;
+	top: 106px;
+	left: 0;
+	
 }
-
-.search_li {
-	background: #e3e2e4;
+.select_3 ul{
+	
+	top: 106px;
+	left: 524px;
+	
+}.select_2 ul{
+	
+	top: 106px;
+	left: 262px;
+	
+}
+.select_1 li,.select_2 li,.select_3 li{
+	width: auto;
+	line-height: 30px;
 	text-align: left;
+	padding-left: 25px;
+}
+.select_1:hover>ul,.select_2:hover>ul,.select_3:hover>ul{
+	display: inherit;
+	border-top: none;
+	
+}
+.select_1 li:hover,.select_2 li:hover,.select_3 li:hover{
+	background: url(../images/task_1_.gif) no-repeat center left 8px #be4e48;
+	background-position-x: 8px;
+	color: #FFF;
 }
 
 
@@ -721,7 +739,7 @@ width: 240px;
 
 .footer_2 p {
 	text-align: left;
-	padding-top: 25px;
+	padding-top: 22px;
 }
 
 .footer_2 span {
