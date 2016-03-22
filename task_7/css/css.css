@@ -42,7 +42,7 @@ body {
 /*头部开始*/
 
 .header {
-	min-width: 1280px;
+	min-width: 1180px;
 	height: 58px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -712,7 +712,7 @@ width: 240px;
 
 .footer_2 {
 	height: 57px;
-	min-width: 1280px;
+	/*min-width: 1280px;*/
 	padding: 0 50px;
 	background: #2f3039;
 	color: #FFF;
@@ -721,7 +721,12 @@ width: 240px;
 
 .footer_2 p {
 	text-align: left;
+<<<<<<< HEAD
 	padding-top: 25px;
+=======
+	padding-top: 22px;
+
+>>>>>>> origin/master
 }
 
 .footer_2 span {

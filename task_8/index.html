@@ -4,55 +4,115 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>task_8</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />-->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
 			
-				body{
-					padding-top:20px ;
-				
-				}
+			.container {
+				width: auto;
+				height: auto;
+				padding: 10px;
+			}
 			
-				.container{
-					widows: ;
+			.row {
+				width: 100%;
+				height: auto;
+			}
+			
+			.box {
+				height: 50px;
+				border: 1px solid #999;
+				background: #eee;
+			}
+			
+			[class|="col"] {
+				float: left;
+				height: 70px;
+				box-sizing: border-box;
+				padding: 10px;
+			}
+			
+			.col-sm-1 {
+				width: 8.3333333%;
+			}
+			
+			.col-sm-2 {
+				width: 16.6666667%
+			}
+			
+			.col-sm-3 {
+				width: 25%;
+			}
+			
+			.col-sm-4 {
+				width: 33.3333333%;
+			}
+			
+			.col-sm-6 {
+				width: 50%;
+			}
+			
+			@media screen and (max-width:768px) {
+				.col-xs-2 {
+					width: 16.6666667%;
 				}
-				.row div{
-					height: 50px;
-					background: #eee;
-					border: solid 1px #999;
+				.col-xs-3 {
+					width: 25%
 				}
+				.col-xs-6 {
+					width: 50%;
+				}
+				.col-xs-8 {
+					width: 66.6666667%;
+				}
+				.col-xs-12 {
+					width: 100%;
+				}
+			}
 		</style>
 	</head>
 
 	<body>
-		<div class="container text-center ">
-			<div class="row show-grid">
-				<div class="col-sm-4 col-xs-6">md4</div>
-				<div class="col-sm-4 col-xs-6">md4</div>
-				<div class="col-sm-4 col-xs-12">md4</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-xs-6">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-3 col-xs-3">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-6 col-xs-6">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-3 col-xs-3">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-1 col-xs-2">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-1 col-xs-2">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-2 col-xs-8">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-2 col-xs-3">
+					<div class="box"></div>
+				</div>
+				<div class="col-sm-6 col-xs-3">
+					<div class="box"></div>
+				</div>
 			</div>
-			<div class="row show-grid">
-				<div class="col-sm-3 col-xs-3">md3</div>
-				<div class="col-sm-6 col-xs-6">md6</div>
-				<div class="col-sm-3 col-xs-3">md3</div>
-			</div>
-			<div class="row show-grid">
-				<div class="col-sm-1 col-xs-2">md1</div>
-				<div class="col-sm-1 col-xs-2">md1</div>
-				<div class="col-sm-2 col-xs-8">md2</div>
-				<div class="col-sm-2 col-xs-3">md2</div>
-				<div class="col-sm-6 col-xs-3">md6</div>
-			</div>
-	</div>
-		
+		</div>
 
-		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-
-		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</body>
 
 </html>
