@@ -50,7 +50,7 @@ img {
 
 .ck-slidebox {
 	position: absolute;
-	left: 83%;
+	right: 176px;
 	bottom: 130px;
 	z-index: 30;
 }
