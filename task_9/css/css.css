@@ -31,6 +31,7 @@ span {
 	float: left;
 	overflow: scroll;
 	min-width: 1280px;
+	border: n
 }
 
 
@@ -181,7 +182,7 @@ span {
 .ul_li_1_1 {
 	background: url(../images/2_21.png)no-repeat left center;
 	background-color: #383d4e;
-	height: 180px;
+	height: 170px;
 }
 
 .ul_li_1_1 ul {
@@ -221,9 +222,9 @@ span {
 .ul_li_1_5,
 .ul_li_1_6 {
 	padding-left: 75px;
-	line-height: 45px;
+	line-height: 35px;
 	background-position: 21px;
-	background-position-y: 17px;
+	background-position-y: 12px;
 	background-position-x: 55px;
 }
 
@@ -331,13 +332,13 @@ span {
 	background: #FFF;
 	margin-bottom: 10px;
 	position: relative;
-	min-width: 888px;
+	min-width: 941px;
 }
 
 .inquire li {
 	float: left;
 	margin-top: 15px;
-	margin-right: 30px;
+	/*margin-right: 30px;*/
 	color: #B1B1B1;
 }
 
@@ -362,6 +363,7 @@ span {
 	position: absolute;
 	right: 53px;
 	top: 33px;
+	cursor: pointer;
 }
 
 .inquire ul {
@@ -411,15 +413,14 @@ span {
 }
 
 .ip_li_3 {
-
 	min-width: 325px;
-		width: 45%;
+	width: 45%;
 }
 
 .rollbar {
 	height: 67px;
 	width: 100%;
-	/*min-width: 890px;*/
+	min-width: 941px;
 	background: #EDEDED;
 }
 
@@ -448,7 +449,7 @@ span {
 	float: left;
 	height: 67px;
 	width: 30px;
-	margin-right: 5px;
+	/*margin-right: 5px;*/
 	border: solid 1px #B1B1B1;
 	box-sizing: border-box;
 	background: #FFF;
@@ -456,10 +457,10 @@ span {
 
 .rollbar_right_r {
 	float: right;
-	width: 159px;
+	width: 155px;
 	height: 67px;
-	position: absolute;
-	right: 55px;
+	/*position: absolute;
+	right: 52px;*/
 }
 
 .rollbar_left {
@@ -528,6 +529,7 @@ span {
 	width: 100%;
 	height: 92px;
 	margin: 15px 0 10px 0;
+	min-width: 941px;
 }
 
 .statistics h1 {
@@ -543,23 +545,21 @@ span {
 }
 
 .st_li_1 {
-	border-left: solid 3px #43B29F;
-	box-sizing: content-box;
+	border-right: solid 15px #EEEEED;
 }
 
 .st_li_2 {
-	border-left: solid 3px #398AC1;
-	box-sizing: content-box;
+	border-left: solid 5px #EEEEED;
+	border-right: solid 10px #EEEEED;
 }
 
 .st_li_3 {
-	border-left: solid 3px #CF4B36;
-	box-sizing: content-box;
+	border-left: solid 10px #EEEEED;
+	border-right: solid 5px #EEEEED;
 }
 
 .st_li_4 {
-	border-left: solid 3px #E1CD46;
-	box-sizing: content-box;
+	border-left: solid 15px #EEEEED;
 }
 
 .statistics ul li >div {
@@ -591,6 +591,7 @@ span {
 	background: #FFF;
 	float: left;
 	box-sizing: border-box;
+	/*margin-left: -1%;*/
 }
 
 .statistics li h1 {
@@ -598,12 +599,29 @@ span {
 	text-align: center;
 	width: 55px;
 	float: left;
-	margin: 14px 20px 0 20px;
+	height: 37px;
+	padding: 15px 0 15px 15px;
+}
+
+.st_li_1 h1 {
+	border-left: solid 3px #43B29F;
+}
+
+.st_li_2 h1 {
+	border-left: solid 3px #398AC1;
+}
+
+.st_li_3 h1 {
+	border-left: solid 3px #CF4B36;
+}
+
+.st_li_4 h1 {
+	border-left: solid 3px #E1CD46;
 }
 
 .item {
 	margin: 0 auto;
-	min-width: 921px;
+	min-width: 941px;
 	height: 360px;
 	position: relative;
 }
@@ -654,16 +672,20 @@ span {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	font-size: 12px;
-	color: #3B3B3C;
 	border-left: solid 1px #CDCDCD;
 	border-right: solid 1px #CDCDCD;
 	border-top: solid 1px #CDCDCD;
 	z-index: 1;
 }
 
+.item_1 li a {
+	color: #3B3B3C;
+	font-size: 12px;
+}
+
 .item_table {
 	padding: 40px 30px 30px;
-	margin: -3px 20px 28px 30px;
+	margin: -1px 20px 28px 30px;
 	float: left;
 	border: solid 1px #CDCDCD;
 	border-radius: 5px;
@@ -744,15 +766,21 @@ span {
 	line-height: 25px;
 	width: 100%;
 }
-.ss p a{
+
+.ss p a {
 	color: #c3c2c2;
 	padding-left: 3px;
 	line-height: 25px;
+	font-size: 12px;
 }
-.input_1{
+
+.input_1 {
 	height: 13px;
+	cursor: pointer;
+	vertical-align: sub;
 }
-.button{
+
+.button {
 	width: 50px;
 	font-size: 12px;
 	height: 26px;
@@ -762,7 +790,9 @@ span {
 	border-radius: 5px;
 	float: right;
 	margin-right: 3px;
+	cursor: pointer;
 }
+
 .item_h2 p {
 	text-align: left;
 	float: left;
@@ -795,14 +825,14 @@ span {
 }
 
 .time {
-	min-width: 921px;
+	min-width: 941px;
 	height: 400px;
 	position: relative;
 	margin: 10px 0 100px 0;
 }
 
 .time_top {
-	width: 35%;
+	width: 37%;
 	height: 400px;
 	border: solid 1px #B1B1B1;
 	border-radius: 5px;
@@ -812,8 +842,83 @@ span {
 	left: 0;
 }
 
+.ti_select {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.ti_top {
+	width: 94%;
+	height: 24px;
+	margin-top: 10px;
+	padding-top: 7px;
+	border-top: solid 1px #a9cfec;
+	border-bottom: solid 1px #ececed;
+}
+
+.ti_top li {
+	float: left;
+	width: 14%;
+	font-size: 12px;
+}
+
+.ti_table {
+	width: 93%;
+	margin-top: 10px;
+	height: auto;
+	/*border-collapse: collapse;*/
+}
+
+.ti_table p,
+.ti_table b {
+	font-size: 12px;
+	font-weight: 400;
+	color: #535353;
+}
+
+.ti_table th {
+	width: 14%;
+	height: 45px;
+	box-sizing: border-box;
+}
+
+.ti_table th:hover {
+	cursor: pointer;
+	border: solid 1px #f5c21d;
+}
+
+.kuai {
+	border: solid 1px #f5c21d;
+}
+
+.ti_select select {
+	font-size: 12px;
+	margin-right: 5px;
+	height: 24px;
+}
+
+.ti_select_1 {
+	width: 20%;
+}
+
+.ti_select_2 {
+	width: 22%;
+}
+
+.ti_select_3 {
+	width: 22%;
+}
+
+.ti_select input {
+	width: 20%;
+	height: 24px;
+	font-size: 12px;
+	background: #FFF;
+	border: solid 1px #AAAAAA;
+}
+
 .hot {
-	width: 64%;
+	width: 62%;
 	height: 400px;
 	border: solid 1px #B1B1B1;
 	border-radius: 5px;
@@ -908,6 +1013,7 @@ span {
 
 .hover:hover {
 	background: #EDEDED;
+	cursor: pointer;
 }
 
 .hot th,
