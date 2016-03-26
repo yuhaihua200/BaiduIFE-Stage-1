@@ -121,7 +121,7 @@ span {
 	width: 200px;
 	height: 100px;
 	text-align: center;
-	margin: 30px 0 0 35px;
+	margin: 30px 0 0 15px;
 }
 
 .top_img img {
@@ -332,7 +332,9 @@ span {
 	background: #FFF;
 	margin-bottom: 10px;
 	position: relative;
+	padding-top: 5px;
 	min-width: 941px;
+	box-sizing: border-box;
 }
 
 .inquire li {
@@ -398,8 +400,6 @@ span {
 	width: 25%;
 	position: relative;
 }
-
-.ip_li_2 div {}
 
 .ip_li_2 select,
 .ip_ct_1 {
@@ -507,7 +507,7 @@ span {
 .rollbar h1 {
 	font-size: 12px;
 	color: #343434;
-	padding-top: 5px;
+	padding-top: 15px;
 }
 
 .rollbar h1 span {
@@ -519,6 +519,7 @@ span {
 	font-size: 21px;
 	color: #EA6500;
 	font-weight: 500;
+	margin-top: 5px;
 }
 
 .rollbar h2 span {
@@ -600,7 +601,7 @@ span {
 	width: 55px;
 	float: left;
 	height: 37px;
-	padding: 15px 0 15px 15px;
+	padding: 20px 0 15px 15px;
 }
 
 .st_li_1 h1 {
@@ -860,13 +861,13 @@ span {
 	float: left;
 	width: 14%;
 	font-size: 12px;
+	line-height: 20px;
 }
 
 .ti_table {
 	width: 93%;
 	margin-top: 10px;
 	height: auto;
-	/*border-collapse: collapse;*/
 }
 
 .ti_table p,
