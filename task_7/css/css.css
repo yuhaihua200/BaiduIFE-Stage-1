@@ -28,13 +28,14 @@ body {
 #wrappar {
 	width: auto;
 	height: auto;
+	float: left;
 }
 
 .mian {
 	min-width: 1280px;
 	height: auto;
 	margin: 0 auto;
-	float: left;
+	clear: both;
 	width: 100%;
 }
 
@@ -193,7 +194,7 @@ body {
 
 .search {
 	width: 100%;
-	float: left;
+	clear: both;
 }
 
 .search_top {
