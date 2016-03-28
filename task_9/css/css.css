@@ -26,12 +26,11 @@ span {
 /*外层开始*/
 
 .wrapper {
-	width: 100%;
+	/*width: 100%;
 	height: auto;
-	float: left;
+	float: left;*/
 	overflow: scroll;
 	min-width: 1280px;
-	border: n
 }
 
 
@@ -92,11 +91,7 @@ span {
 /*主体*/
 
 .main {
-	position: absolute;
-	top: 58px;
-	left: 0;
-	border: 0;
-	right: 0;
+padding-top: 58px;
 }
 
 
@@ -333,7 +328,7 @@ span {
 	margin-bottom: 10px;
 	position: relative;
 	padding-top: 5px;
-	min-width: 941px;
+	min-width: 888px;
 	box-sizing: border-box;
 }
 
@@ -393,7 +388,7 @@ span {
 }
 
 .ip_li_1 div {
-	min-width: 130px;
+	min-width: 110px;
 }
 
 .ip_li_2 {
@@ -413,14 +408,14 @@ span {
 }
 
 .ip_li_3 {
-	min-width: 325px;
+	min-width: 300px;
 	width: 45%;
 }
 
 .rollbar {
 	height: 67px;
 	width: 100%;
-	min-width: 941px;
+	min-width: 888px;
 	background: #EDEDED;
 }
 
@@ -481,7 +476,7 @@ span {
 	min-width: 670px;
 	left: 25px;
 	box-sizing: border-box;
-	margin: 0 152px 0 35px;
+	margin: 0 153px 0 35px;
 }
 
 .rollbar ul li {
@@ -530,7 +525,7 @@ span {
 	width: 100%;
 	height: 92px;
 	margin: 15px 0 10px 0;
-	min-width: 941px;
+	min-width: 888px;
 }
 
 .statistics h1 {
@@ -539,10 +534,6 @@ span {
 	text-align: left;
 	margin-bottom: 5px;
 	font-weight: 500;
-}
-
-.statistics ul {
-	min-width: 921px;
 }
 
 .st_li_1 {
@@ -622,7 +613,7 @@ span {
 
 .item {
 	margin: 0 auto;
-	min-width: 941px;
+	min-width: 888px;
 	height: 360px;
 	position: relative;
 }
@@ -826,7 +817,7 @@ span {
 }
 
 .time {
-	min-width: 941px;
+	min-width: 888px;
 	height: 400px;
 	position: relative;
 	margin: 10px 0 100px 0;
