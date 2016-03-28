@@ -591,7 +591,6 @@ body {
 	float: left;
 	height: auto;
 	padding-left: 50px;
-	margin-bottom: 150px;
 }
 
 .joinus_form input,
@@ -667,7 +666,8 @@ width: 240px;
 	width: 100%;
 	height: auto;
 	background: #32353e;
-	float: left;
+	clear: both;
+	padding-top: 30px;
 }
 
 .footer_1 {
