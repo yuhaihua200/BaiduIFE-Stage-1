@@ -174,11 +174,7 @@ padding-top: 58px;
 	text-align: left;
 }
 
-.ul_li_1_1 {
-	background: url(../images/2_21.png)no-repeat left center;
-	background-color: #383d4e;
-	height: 170px;
-}
+
 
 .ul_li_1_1 ul {
 	background: #383d4e;
@@ -218,9 +214,16 @@ padding-top: 58px;
 .ul_li_1_6 {
 	padding-left: 75px;
 	line-height: 35px;
-	background-position: 21px;
+	background-position: 55px center;
 	background-position-y: 12px;
 	background-position-x: 55px;
+}
+
+.ul_li_1_1 {
+	background: url(../images/2_21.png)no-repeat left center;
+	background-color: #383d4e;
+	height: 170px;
+	background-position: 55px 12px;
 }
 
 .ul_li_1_1 li {

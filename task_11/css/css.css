@@ -1,0 +1,340 @@
+/*基础开始*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FFF;
+	font-family: "微软雅黑";
+}
+
+a,
+h1,
+h2,
+h3,
+span,
+li,
+p {
+	font-size: 1.3rem;
+	color: #656565;
+	text-align: center;
+	list-style: none;
+}
+
+.header {
+	height: 4rem;
+	width: 100%;
+	background: #91D4DA;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+
+.header a {
+	color: #FFF;
+	background: url(../img/1.png) no-repeat left center;
+	background-position-x: 0.5rem;
+	background-size: 30%;
+	line-height: 4rem;
+	padding-left: 2rem;
+	font-size: 1.2rem;
+	width: 20%;
+	z-index: 1000;
+}
+
+.header h1 {
+	color: #FFF;
+	width: 100%;
+	line-height: 4.3rem;
+	font-size: 1.3rem;
+	text-align: center;
+	display: block;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	letter-spacing: 0.1rem;
+}
+.header h1 span {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.main {
+	float: left;
+	display: block;
+	height: auto;
+	background: #f5f5f5;
+	padding-top: 4rem;
+}
+
+.nav {
+	height: 4rem;
+	float: left;
+	width: 100%;
+	background: #FFF;
+}
+
+.nav ul {
+	margin: 0 auto;
+}
+
+.nav li {
+	float: left;
+	width: 20%;
+	line-height: 4rem;
+	height: 4rem;
+	font-weight: bold;
+	border-bottom: 1px solid #FFF;
+}
+
+.nav .li-a {
+	border-bottom: 5px solid #91d4da;
+	box-sizing: border-box;
+}
+
+.banenr {
+	width: 100%;
+	float: left;
+}
+
+.banenr img {
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.tab {
+	background: #FFF;
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 1.5rem 0;
+}
+
+.tab ul {
+	float: left;
+	width: 100%;
+}
+
+.tab li {
+	float: left;
+	width: 20%;
+	height: auto;
+}
+
+.tab li a {
+	width: 100%;
+	float: left;
+	background-size: 50%;
+}
+
+.tab li a img {
+	width: 60%;
+}
+
+.tab li h2 {
+	padding-top: 0.5rem;
+	color: #303030;
+	font-size: 1.2rem;
+}
+
+.column {
+	margin-bottom: 1rem;
+	background: #FFF;
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 0 0.8rem;
+}
+
+.column ul {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #dedede;
+}
+
+.column li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	float: left;
+	width: 33.33%;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	border-right: 1px solid #dedede;
+}
+
+.column li h2 {
+	color: #2f2f2f;
+	font-size: 1.5rem;
+	margin-bottom: 0.2rem;
+	line-height: 2rem;
+}
+
+.column li span {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.column img {
+	width: 100%;
+}
+
+.column .column-li {
+	border: none;
+}
+
+.column-box1 {
+	height: auto;
+	background: #FFF;
+	margin-bottom: 1rem;
+	float: left;
+	width: 100%;
+	padding-bottom: 0.5rem;
+}
+
+.column-box1-h1 {
+	line-height: 3rem;
+	padding: 0 0.8rem;
+	width: 100%;
+}
+
+.column-box1-h1 h1 {
+	text-align: left;
+	width: 100%;
+	border-bottom: 1px solid #dedede;
+}
+
+.column-box1-list {
+	float: left;
+	background: #FFF;
+	width: 100%;
+}
+
+.column-box1-list-img {
+	width: 30%;
+	float: left;
+	padding: 0.8rem 0.4rem 0 0.8rem;
+}
+
+.column-box1-list img {
+	width: 100%;
+	border: 1px solid#f7d192;
+}
+
+.column-box1-list ul {
+	float: right;
+	width: 70%;
+	padding-top: 0.45rem;
+}
+
+.column-box1-list ul li {
+	float: left;
+	background: #f8f8f8;
+	width: 45%;
+	line-height: 3rem;
+	margin: 0.4rem;
+}
+
+.list {
+	height: auto;
+	background: #fff;
+	float: left;
+}
+
+.list-box1 {
+	width: 100%;
+	padding: 0 0.8rem;
+	float: left;
+}
+
+.list-box1 li {
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 0.6rem 0 0 0;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+}
+
+.list-box1 li img {
+	width: 31%;
+	text-align: left;
+	margin-bottom: 0.3rem;
+}
+
+.list-box1-li {
+	width: 67%;
+	float: right;
+	padding: 0 0.8rem;
+}
+
+.list-box1-li h2 {
+	text-align: left;
+	float:left;
+	line-height: 1.3rem;
+}
+
+.list h2 a {
+	font-size: 1.2rem;
+}
+
+.list-box1-li p {
+	font-size: 1rem;
+	position: absolute;
+	bottom: 0.4rem;
+	color: #c9c9c9;
+}
+
+.list-box1-li p time,
+.list-box2 p time {
+	padding-left: 0.5rem;
+}
+
+.list-box2 {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding-bottom: 0.2rem;
+}
+
+.list-box2 h2 {
+	text-align: left;
+	line-height: 2.8rem;
+	height: 2.5rem;
+	float: left;
+	width: 100%;
+	padding-left: 0.8rem;
+}
+
+.list-box2 ul {
+	padding: 0 0.7rem;
+	float: left;
+	width: 100%;
+}
+
+.list-box2 ul li {
+	float: left;
+	width: 33.33%;
+}
+
+.list-box2 li img {
+	width: 100%;
+	text-align: left;
+	padding: 0.1rem;
+}
+
+.list-box2 p {
+	padding-left: 0.8rem;
+	font-size: 1rem;
+	text-align: left;
+	line-height: 1.8rem;
+	height: 2rem;
+	clear: both;
+	color: #c9c9c9;
+}
