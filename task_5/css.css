@@ -222,9 +222,6 @@ td {
 	margin-left: 15px;
 }
 
-.form_r p {
-	width: 300px;
-}
 
 #textarea {
 	height: 60px;
@@ -263,6 +260,7 @@ td {
 #footer p {
 	text-align: center;
 	color: #FFF;
+	margin-top: 15px;
 }
 
 
@@ -277,7 +275,12 @@ td {
 		margin: 0 auto;
 		float: none;
 	}
-
+	.nav{
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+		 
+	}
 	.header ul {
 		display: inline-block;
 		position: relative;
@@ -291,10 +294,15 @@ td {
 	}
 	#left {
 		width: auto;
-		margin-top: 590px;
 		margin-right: 0;
+		min-width: 380px;
 	}
 	#right {
-		float: left;
+		float: none;
+		margin:  0 auto;
+		margin-top: 20px;
+	}
+	body{
+		min-width: 375px;
 	}
 }

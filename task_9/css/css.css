@@ -62,7 +62,7 @@ span {
 }
 
 .serach input {
-	line-height: 24px;
+	line-height: 27px;
 	width: 277px;
 	border-radius: 15px;
 	border: none;
@@ -101,8 +101,8 @@ padding-top: 58px;
 	height: 1200px;
 	width: 260px;
 	background: #2B2E3D;
-	position: relative;
-	float: left;
+	position: fixed;
+	z-index: 10;
 }
 
 .top {
@@ -276,6 +276,7 @@ padding-top: 58px;
 	position: relative;
 	height: 100%;
 	overflow: hidden;
+	padding-left: 260px;
 }
 
 .right_top {
@@ -594,7 +595,7 @@ padding-top: 58px;
 	text-align: center;
 	width: 55px;
 	float: left;
-	height: 37px;
+	height: 32px;
 	padding: 20px 0 15px 15px;
 }
 
