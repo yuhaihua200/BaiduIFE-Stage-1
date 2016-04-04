@@ -45,8 +45,7 @@ body {
 .header {
 	min-width: 1180px;
 	height: 58px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 0 50px;
 	font-weight: 600;
 }
 
@@ -68,24 +67,24 @@ body {
 
 .nav li {
 	float: left;
-	width: auto;
-	margin: 20px 20px 0;
-	line-height: 14px;
 }
 
 .nav a {
 	color: #787b83;
 	width: 100px;
+	margin: 20px 20px 0;
+	padding: 0 10px 21px;
+	line-height: 55px;
 }
-.nav a:hover{
+
+.nav a:hover {
 	color: #E74F4D;
+	border-bottom: solid 4px #E74F4D;
+	text-align: center;
 }
+
 .nav_D {
 	border-bottom: solid 4px #E74F4D;
-	width: auto;
-	padding: 0 30px;
-	padding-bottom: 21px;
-	text-align: center;
 }
 
 .loginbar {
@@ -106,7 +105,7 @@ body {
 
 .banenr {
 	height: 690px;
-	background: url(../images/banner_02.png)no-repeat;
+	background: url(../images/banner_02.png)no-repeat #333;
 	background-size: 100%;
 	min-width: 1280px;
 }
@@ -228,7 +227,7 @@ body {
 	height: 38px;
 	margin: 0 auto;
 	padding-top: 70px;
-		position: relative;
+	position: relative;
 }
 
 .seatch_form input {
@@ -238,10 +237,11 @@ body {
 	color: #FFF;
 	width: 230px;
 	height: 37px;
-
 }
 
-.select_1,.select_2,.select_3 {
+.select_1,
+.select_2,
+.select_3 {
 	float: left;
 	width: 230px;
 	height: 35px;
@@ -251,14 +251,18 @@ body {
 	text-align: left;
 	color: #BFBFBE;
 	background: url(../images/task_7.gif) no-repeat center right 10px #fff;
-	
 }
-.select_1 span,.select_2 span,.select_3 span{
-	padding-left:8px ;
+
+.select_1 span,
+.select_2 span,
+.select_3 span {
+	padding-left: 8px;
 	line-height: 36px;
-	
 }
-.select_1 ul,.select_2 ul,.select_3 ul{
+
+.select_1 ul,
+.select_2 ul,
+.select_3 ul {
 	display: none;
 	height: auto;
 	width: 230px;
@@ -267,31 +271,37 @@ body {
 	position: absolute;
 	top: 106px;
 	left: 0;
-	
 }
-.select_3 ul{
-	
+
+.select_3 ul {
 	top: 106px;
 	left: 524px;
-	
-}.select_2 ul{
-	
+}
+
+.select_2 ul {
 	top: 106px;
 	left: 262px;
-	
 }
-.select_1 li,.select_2 li,.select_3 li{
+
+.select_1 li,
+.select_2 li,
+.select_3 li {
 	width: auto;
 	line-height: 30px;
 	text-align: left;
 	padding-left: 25px;
 }
-.select_1:hover>ul,.select_2:hover>ul,.select_3:hover>ul{
+
+.select_1:hover>ul,
+.select_2:hover>ul,
+.select_3:hover>ul {
 	display: inherit;
 	border-top: none;
-	
 }
-.select_1 li:hover,.select_2 li:hover,.select_3 li:hover{
+
+.select_1 li:hover,
+.select_2 li:hover,
+.select_3 li:hover {
 	background: url(../images/task_1_.gif) no-repeat center left 8px #be4e48;
 	/*background-position-x: 8px;*/
 	color: #FFF;
@@ -342,6 +352,7 @@ body {
 .pic img {
 	padding: 10px;
 	border: solid 1px #cecfce;
+	box-shadow: 2px 2px 4px #9EA09E;
 }
 
 
@@ -355,13 +366,14 @@ body {
 }
 
 .guild_l {
-    width: 851px;
-    height: 568px;
-    color: #FFF;
-    position: relative;
-    z-index: 2;
+	width: 851px;
+	height: 568px;
+	color: #FFF;
+	position: relative;
+	z-index: 2;
 }
-.guild_l li{
+
+.guild_l li {
 	width: 100%;
 	float: left;
 	height: 590px;
@@ -388,15 +400,15 @@ body {
 }
 
 .guild_R {
-    width: 288px;
-    height: 567px;
-    color: #323333;
-    padding: 0 70px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 11;
-    background: #FFF;
+	width: 288px;
+	height: 567px;
+	color: #323333;
+	padding: 0 70px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 11;
+	background: #FFF;
 }
 
 .guild_R h2 {
@@ -428,15 +440,15 @@ body {
 .hr_1,
 .hr_2,
 .hr_3 {
-    position: static;
-    display: inline-block;
-    margin: 0 3px;
-    width: 10px;
-    height: 10px;
-    border: 1px solid ;
-    border-radius: 50%;
-    cursor: pointer;
-    background: #5c5c5c;
+	position: static;
+	display: inline-block;
+	margin: 0 3px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #5c5c5c;
 }
 
 .hr_2,
@@ -445,14 +457,13 @@ body {
 	width: 11px;
 	height: 11px;
 	border: solid 1px #CABDBD;
-	
 }
 
 .k {
-    margin-top: 35px;
-    width: 100%;
-    text-align: center;
-    position: relative;
+	margin-top: 35px;
+	width: 100%;
+	text-align: center;
+	position: relative;
 }
 
 
@@ -525,18 +536,18 @@ body {
 /*mian-5开始*/
 
 .joinus {
-    width: 1050px;
-    height: auto;
-    margin: 0 auto;
+	width: 1050px;
+	height: auto;
+	margin: 0 auto;
 }
 
 .joinus .hr {
-    width: 30px;
-    height: 2px;
-    margin: 0 auto;
-    background: #e74f4d;
-    margin-top: 15px;
-    margin-bottom: 20px
+	width: 30px;
+	height: 2px;
+	margin: 0 auto;
+	background: #e74f4d;
+	margin-top: 15px;
+	margin-bottom: 20px
 }
 
 .joinus h1 {
@@ -609,11 +620,11 @@ body {
 
 .joinus_form input {
 	width: 230px;
-    float: left;
-    text-align: left;
-    line-height: 20px;
-    margin-top: 10px;
-    padding-left: 5px;
+	float: left;
+	text-align: left;
+	line-height: 20px;
+	margin-top: 10px;
+	padding-left: 5px;
 }
 
 .joinus_form label {

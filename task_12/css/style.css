@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table {
+	margin: 50px auto;
+	border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+	padding: 5px 10px;
+	text-align: center;
+	border: 2px solid #FFF;
+}
+
+th {
+	background: #000;
+	color: #FFF;
+}
+
+.red {
+	color: red;
+}
+
+tr:nth-child(2n+1) {
+	background: #C3C2C2;
+}
+
+input {
+	display: block;
+	margin: 0 0 50px 27%;
+	height: 28px;
+	width: 100px;
+	outline: 0;
+	transition: width 0.5s;
+	-webkit-transition: width 0.5s;
+}
+
+input:focus {
+	width: 215px;
+}
+
+#box {
+	width: 480px;
+	margin: 50px auto;
+}
+
+.banner {
+	height: 270px;
+	width: 480px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.banenr-ul {
+	width: 300%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	transition: 0.5s left;
+	font-size: 0;
+	word-spacing: 0;
+	letter-spacing: 0;
+}
+
+.banner li {
+	display: inline-block;
+}
+
+.bannerBar {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 999;
+}
+
+.bannerBar a {
+	float: left;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: #228AC1;
+	margin: 0 5px;
+	padding: 5px;
+	color: #FFF;
+	text-align: center;
+	line-height: 15px;
+	opacity: 0.5;
+	z-index: 10;
+}
+
+#img1:target~.banenr-ul {
+	left: 0;
+}
+
+#img2:target~.banenr-ul {
+	left: -100%;
+}
+
+#img3:target~.banenr-ul {
+	left: -200%;
+}
