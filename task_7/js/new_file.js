@@ -83,10 +83,10 @@
                 }
             }
             // 修正box  标记居中
-            var box = $(this).find('.ck-slidebox');
-            box.css({
-                'margin-left':-(box.width() / 2)
-            })
+//          var box = $(this).find('.ck-slidebox');
+//          box.css({
+//              'margin-left':-(box.width() / 2)
+//          })
             // dir  移动方向参数
             switch(opts.dir){
                 case "x":

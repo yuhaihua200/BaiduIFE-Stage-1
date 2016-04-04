@@ -71,7 +71,6 @@ td {
 	background: #333;
 	width: 100%;
 	height: 60px;
-	margin-bottom: 10px;
 }
 
 .logos {
@@ -110,14 +109,14 @@ td {
 }
 
 #article {
-	zoom: 1;
+	float: left;
+	min-width: 230px;
 }
 
 
 /*左边*/
 
 #left {
-	float: left;
 	margin-right: 365px;
 }
 
@@ -186,29 +185,30 @@ td {
 	float: right;
 	width: 300px;
 	overflow: hidden;
-	margin-left: -360px;
 }
 
 #form {
 	font-size: 13px;
 	width: 100%;
 	height: auto;
+	float: left;
 }
 
 .form_l {
-	/*width: 180px;*/
-	height: 450px;
+	height: 425px;
 	float: left;
 	margin-left: 10px;
 }
 
 .form_l p,
 .form_r p {
-	/*width: 182px;*/
 	height: 30px;
-	/*padding-right: 5px;*/
 	margin: 10px 0 10px 0;
 	line-height: 20px;
+	text-align: right;
+}
+.form_r p{
+	text-align: left;
 }
 
 .form_l label {
@@ -222,9 +222,6 @@ td {
 	margin-left: 15px;
 }
 
-.form_r p {
-	width: 300px;
-}
 
 #textarea {
 	height: 60px;
@@ -240,13 +237,13 @@ td {
 	border-radius: 10px;
 	background: #3998FC;
 	font-weight: bold;
+	/*margin-top: 20px;*/
 }
 
 #submit {
-	margin-top: -32px;
 	height: auto;
-	float: left;
 	width: 100%;
+	clear: both;
 }
 
 
@@ -257,35 +254,55 @@ td {
 	height: 60px;
 	background: #000;
 	padding-top: 3px;
-	float: left;
+	clear: both;
 }
 
 #footer p {
 	text-align: center;
 	color: #FFF;
+	margin-top: 15px;
 }
 
 
 /*自适应部分*/
 
 @media screen and (max-width: 640px) {
-	.header {
+	.header{
 		height: 120px;
 		text-align: center;
+	}
+	.logos {
+		margin: 0 auto;
+		float: none;
+	}
+	.nav{
+		float: none;
+		margin: 0 auto;
+		margin-top: 20px;
+		 
 	}
 	.header ul {
 		display: inline-block;
 		position: relative;
 		margin: 0 auto;
 	}
-	.header li {
+	.nav ul li {
 		font-size: 11px;
+		height: 25px;
+		margin: 0 ;
+		width: 50%;
 	}
 	#left {
-		width: 100%;
+		width: auto;
+		margin-right: 0;
+		min-width: 380px;
 	}
 	#right {
-		float: left;
-		margin-left: 20px;
+		float: none;
+		margin:  0 auto;
+		margin-top: 20px;
+	}
+	body{
+		min-width: 375px;
 	}
 }
